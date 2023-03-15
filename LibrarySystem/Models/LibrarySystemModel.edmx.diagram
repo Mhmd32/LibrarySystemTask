@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e50ada532d57409e87c597bee00fd2db" Name="Diagram1">
+        <EntityTypeShape EntityType="LibrarySystemDBModel.Author" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemDBModel.BookAuthor" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemDBModel.BookCategory" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemDBModel.Book" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemDBModel.BookSubcategory" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="LibrarySystemDBModel.FK__BookAutho__Autho__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemDBModel.FK__BookAutho__BookI__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemDBModel.FK__BookSubca__Categ__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemDBModel.FK__Books__Subcatego__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
